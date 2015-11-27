@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/100/trunk/kismet-dect-v2
+END
+kismet_dect.cc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/100/trunk/kismet-dect-v2/kismet_dect.cc
+END
+tracker_dect.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/100/trunk/kismet-dect-v2/tracker_dect.h
+END
+dect_client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/98/trunk/kismet-dect-v2/dect_client.cc
+END
+dumpfile_decttxt.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/100/trunk/kismet-dect-v2/dumpfile_decttxt.cc
+END
+dumpfile_decttxt.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/100/trunk/kismet-dect-v2/dumpfile_decttxt.h
+END
+packetsource_dect.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/99/trunk/kismet-dect-v2/packetsource_dect.cc
+END
+packet_dect.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/95/trunk/kismet-dect-v2/packet_dect.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/100/trunk/kismet-dect-v2/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/90/trunk/kismet-dect-v2/README
+END
+packetsource_dect.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/93/trunk/kismet-dect-v2/packetsource_dect.h
+END
+tracker_dect.cc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/100/trunk/kismet-dect-v2/tracker_dect.cc
+END

@@ -1,0 +1,143 @@
+                            KISMET DECT MODULES
+                            ===================
+
+PREREQUISITES:
+=============
+
+In order to use the Kismet DECT plugins, you need the latest kismet-newcore 
+from the Kismet subversion repository. The code here is NOT usable with the 
+current Kismet stable release, since Kismet supports modules only in newcore.
+
+Get kismet-newcore like so:
+
+ svn co http://svn.kismetwireless.net/code/branch/kismet-newcore kismet-newcore
+
+Build & Install:
+
+ cd kismet-newcore
+ ./configure 
+ make
+ make install
+
+KISMET-DECT PLUGINS:
+===================
+
+You can find the Kismet DECT client and server modules subversion repository at
+the following url:
+
+    https://dedected.org/svn/trunk/kismet-dect
+
+Use subversion to check out the trunk like so:
+
+    svn co https://dedected.org/svn/trunk/kismet-dect
+
+You then should see these directories:
+
+    client_module/ -- Contains the Kismet client module code
+    server_module/ -- Contains the Kismet server module code
+
+NOTE: Make sure the environment variables KIS_DEST_DIR and KIS_SRC_DIR point to
+something useful. These variables are used in the Makefile and default to the 
+following directories:
+    
+    KIS_DEST_DIR=/usr/local
+    KIS_SRC_DIR=/usr/src/kismet-newcore
+
+Change them according to your environment. For example, if your kismet-newcore
+source is at /home/user/src/kismet-newcore and your Kismet installation is at
+/home/user/tools/kismet-build, adapt your environment like so:
+
+    export KIS_SRC_DIR=/home/user/src/kismet-newcore
+    export KIS_DEST_DIR=/home/user/tools/kismet-build
+
+Then, you're ready to build:
+
+    make -C client_module && make -C server_module
+
+Install:
+
+    make -C client_module install && make -C server_module install
+
+You are then able to start kismet_server and kismet_client and should be able
+to choose the Kismet DECT plugin from the menu.
+
+CONFIG:
+======
+
+Make sure to add the following source to your kismet.conf: 
+
+Device:
+
+    ncsource=dect:device=/dev/coa
+
+Logtype:
+
+    logtypes=dectpcap
+
+FEATURES:
+========
+
+Functionality that works as of now:
+
+ * FP scan
+ * Sorting FP scan results by RFPI, RSSI, seen count, and channel
+ * Locking channels for FP scan
+ * PP (call) scan
+ * Dumping pcap in for call (PP scan) or station (FP scan) (alpha, please test)
+
+Stuff being worked on:
+
+ * GPS support
+ * Dump .wav files
+
+HOTKEYS:
+=======
+
+Currently, after loading the DECT plugin into the client, you need to use 
+certain hotkeys to tell it what to do. Here is a list of keys and what they do:
+
+   ---------+---------------------------------------------
+    KEY     | ACTION
+   ---------+---------------------------------------------
+    h       | Display this help
+    L       | Lock channel hopping to current channel
+    U       | Unlock channel hopping
+    F       | Do async FP scan (default)
+    A       | Do async PP scan
+    M       | Show current mode
+    i       | Sort by RFPI (ascending)
+    I       | Sort by RFPI (descending)
+    r       | Sort by RSSI (ascending)
+    R       | Sort by RSSI (descending)
+    c       | Sort by Channel (ascending)
+    C       | Sort by Channel (descending)
+    s       | Sort by view count (ascending)
+    S       | Sort by view count (descending)
+    Q       | Quit
+    <enter> | Sync with selected station and dump calls
+   -------------------------------------------------------
+
+Q&A:
+===
+
+Q: I don't seem to be able to use the hotkeys or scroll through the station
+   list. What's wrong?
+A: Maybe you choose the wrong window? Try <tab>ing you way to the DECT plugin
+   and then try again.
+
+BUGS/FEATURE REQUESTS:
+=====================
+
+The code is currently quite rough and may contain bugs. If you find a serious bug or
+if you would like to request some feature, please use our ticket system at:
+
+    https://dedected.org/trac/newticket
+
+Or send an email to kismet-dect@detected.org or dedected@lists.gnumonks.org. Thanks.
+
+AUTHORS:
+=======
+
+Mike Kershaw <dragorn (at) kismetwireless (dot) net
+Jake Appelbaum <jacob (at) appelbaum (dot) net
+Christian Fromme <kaner (at) strace (dot) org

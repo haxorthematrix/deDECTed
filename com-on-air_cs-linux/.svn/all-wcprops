@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/102/trunk/com-on-air_cs-linux
+END
+dect.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/69/trunk/com-on-air_cs-linux/dect.h
+END
+dip_opcodes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/75/trunk/com-on-air_cs-linux/dip_opcodes.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/102/trunk/com-on-air_cs-linux/Makefile
+END
+dip_opcodes.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/com-on-air_cs-linux/dip_opcodes.h
+END
+sc14421_firmware.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/84/trunk/com-on-air_cs-linux/sc14421_firmware.c
+END
+sc14421.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/77/trunk/com-on-air_cs-linux/sc14421.c
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/com-on-air_cs-linux/LICENSE
+END
+sc14421_firmware.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/69/trunk/com-on-air_cs-linux/sc14421_firmware.h
+END
+com_on_air.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/102/trunk/com-on-air_cs-linux/com_on_air.c
+END
+sc14421.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/13/trunk/com-on-air_cs-linux/sc14421.h
+END
+com_on_air_user.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/48/trunk/com-on-air_cs-linux/com_on_air_user.h
+END
+com_on_air.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/102/trunk/com-on-air_cs-linux/com_on_air.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/com-on-air_cs-linux/README
+END
+sc14421_sniffer.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/102/trunk/com-on-air_cs-linux/sc14421_sniffer.c
+END
+dect.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/69/trunk/com-on-air_cs-linux/dect.c
+END
+sc14421_sniffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/87/trunk/com-on-air_cs-linux/sc14421_sniffer.h
+END

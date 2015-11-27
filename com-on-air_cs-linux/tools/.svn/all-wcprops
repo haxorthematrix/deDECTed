@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/101/trunk/com-on-air_cs-linux/tools
+END
+dect_cli.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/87/trunk/com-on-air_cs-linux/tools/dect_cli.h
+END
+pcapstein.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/com-on-air_cs-linux/tools/pcapstein.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/75/trunk/com-on-air_cs-linux/tools/Makefile
+END
+dump_eeprom.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/48/trunk/com-on-air_cs-linux/tools/dump_eeprom.c
+END
+dect_c_channel.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/com-on-air_cs-linux/tools/dect_c_channel.h
+END
+dump_dip.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/75/trunk/com-on-air_cs-linux/tools/dump_dip.c
+END
+pcap2cchan.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/16/trunk/com-on-air_cs-linux/tools/pcap2cchan.c
+END
+coa_syncsniff.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/com-on-air_cs-linux/tools/coa_syncsniff.c
+END
+dect_cli.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/87/trunk/com-on-air_cs-linux/tools/dect_cli.c
+END
+dump_dip.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/75/trunk/com-on-air_cs-linux/tools/dump_dip.h
+END
+pcapstein.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/22/trunk/com-on-air_cs-linux/tools/pcapstein.c
+END
